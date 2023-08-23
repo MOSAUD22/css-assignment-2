@@ -1,0 +1,170 @@
+ @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Hanken Grotesk;
+}
+ .parent-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+ }
+ .card-1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 20px;
+    height: 52vh;
+    width: 15%;
+    padding: 10px 34px 10px 32px;
+ }
+
+ .card-2 {
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(0, 0%, 100%);
+    box-shadow:  7px 5px 5px hsl(240, 16%, 92%);
+    width: 15%;
+    height: 54vh;
+    box-shadow: 7px 5px 5px hsl(240, 16%, 92%);
+    padding: 3px 60px 0px 28px;
+    border-radius: 20px;
+ }
+
+ .great {
+    font-family: Hanken Grotesk;
+    font-weight: 600;
+    font-size: 30px;
+ }
+
+ .marks { 
+    border-radius: 50%;
+    height: 160px;
+    width: 170px;
+    margin: 25px 22px 25px 33px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+ }
+.total-num{
+    font-size: 13px;
+    font-weight: 200;
+    opacity: 60%;
+}
+
+.your-result{
+    margin-top: 2px;
+    opacity: 80%;
+}
+
+.Result {
+    font-size: 70px;
+    margin-top: 12%;
+   
+}
+
+.remarks {
+    font-size: 14px;
+    opacity: 65%;
+}
+
+.summary {
+    font-family:  Hanken Grotesk;
+    font-size: 20px;
+    font-weight: 500;
+ }
+
+ .reaction-summary {
+    margin-top: 30px;
+    display: flex; 
+    width: 120%;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: hsl(0, 100%, 97%);
+    border-radius: 12px;
+    height: 47px;
+}
+
+.reaction, .reac-num {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 13%;
+    color: hsl(0, 100%, 67%);
+    
+    
+}
+
+.reaction-memory {
+    margin-top: 30px;
+    display: flex; 
+    width: 120%;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #FEFAEF;
+    border-radius: 12px;
+    height: 47px;
+}
+
+.memory, .mem-num {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 13%;
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal-summary {
+    margin-top: 30px;
+    display: flex; 
+    width: 120%;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #F2FBFA;
+    border-radius: 12px;
+    height: 47px;
+}
+
+.verbal, .verb-num {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 13%;
+    color: hsl(166, 100%, 37%);
+}
+
+.visual-summary {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    display: flex; 
+    width: 120%;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #F3F3FD;
+    border-radius: 12px;
+    height: 47px;
+}
+
+.visual, .vis-num {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 13%;
+    color: hslhsl(234, 85%, 45%);
+}
+
+.buton {
+    width: 99%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px#4F39F4;
+    font-size: 15px;
+    background-color: #4F39F4;
+    color: white;
+    cursor: pointer;
+}
+
+.card-2 .reac-num,
+.card-2 .mem-num,
+.card-2 .verb-num,
+.card-2 .vis-num {
+    color: black;
+}
