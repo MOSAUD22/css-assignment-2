@@ -142,13 +142,14 @@
     background-color: #F3F3FD;
     border-radius: 12px;
     height: 47px;
+    color: hsl(234, 85%, 45%);
 }
 
 .visual, .vis-num {
     display: inline-block;
     vertical-align: middle;
     border-radius: 13%;
-    color: hslhsl(234, 85%, 45%);
+    
 }
 
 .buton {
